@@ -6,7 +6,7 @@ class Ordenar {
 
    private int[][] matriz;
 
-   public synchronized void ordenar(int linha, int[][] matriz) {
+   public void ordenar(int linha, int[][] matriz) {
       int[]vetor = new int[3];
       this.matriz = matriz;
       
