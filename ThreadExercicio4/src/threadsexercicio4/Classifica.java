@@ -10,8 +10,7 @@ public class Classifica implements Runnable {
       this.matriz = matriz;
       this.ordena = ordena;
       this.linha = linha;
-      
-   }
+    }
 
    @Override
    public void run() {
